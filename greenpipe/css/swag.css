@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:100,300,900);
+
+body {
+    align-self: auto;
+}
+
+.move {
+   padding-left: 1000px;
+}
+
+.float {
+   float: right;
+}
+
+.space {
+   height: 70px;
+}
+
+.center {
+    display: inline;
+    text-align: center;
+}
+
+.fontswag {
+    padding: 50px;
+    font-family: lato;
+    font-weight: 100;
+}
+
+.cc {
+    background: grey;
+    text-align: right;
+    
+}
+
+.dd {
+  width: 100%;
+}
+
+.ctr {
+    display: inline-block;
+    padding-left: 200px;
+    margin-right: auto;
+    width: 50%;
+}
+
+.mid {
+    width: 100%;
+}
+
+.lrg {
+    width: 80%;
+}
+
+.grow {
+    height: 506px;
+}
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+/* Style all font awesome icons */
+.fa {
+    
+    font-size: 30px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-instagram {
+    background: white;
+    color: red;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: white;
+    color: red;
+}
+
+.imag {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    outline: 0;
+    float: left;
+    -webkit-appearance: none;
+  }
+  
+  /* Custom */
+  button {
+    display: inline-block;
+    position: center;
+    padding: 2px 17px;
+    top: 0;
+    font-size: 10px;
+    font-family: Lato;
+    line-height: 300%;
+    border-radius: 40px;
+    border-bottom: 0px solid ;
+    background: white;
+    color: red;
+    box-shadow: 0px 0px 0px ;
+    
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+            transform: translateZ(0);
+    
+    -webkit-transition: all 0.2s ease;
+       -moz-transition: all 0.2s ease;
+        -ms-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+  }
+  
+  button:hover {
+    top: -10px;
+    box-shadow: 0px 10px 10px lightgray;
+    
+    -webkit-transform: rotateX(20deg);
+       -moz-transform: rotateX(20deg);
+        -ms-transform: rotateX(20deg);
+            transform: rotateX(20deg);
+  }
+  
+  button:active {
+    top: 0px;
+    box-shadow: 0px 0px 0px ;
+    background:
+  }
+
+  @keyframes spin {
+    from{
+    transform: rotateY(0deg);
+    moz-transform: rotateY(0deg); //Firefox
+    ms-transform: rotateY(0deg); //Microsoft Browsers
+    }
+    to{
+    transform: rotateY(360deg);
+    moz-transform: rotateY(360deg); //Firefox
+    ms-transform: rotateY(360deg); //Microsoft Browsers
+    }
+   }
+   @-webkit-keyframes spin{
+    from{-webkit-transform: rotateY(0deg);}
+    to{-webkit-transform: rotateY(360deg);}
+   }
+   .imageSpin{
+    animation-name: spin;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    -webkit-animation-name: spin;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-duration: 3s;
+   }
+   
